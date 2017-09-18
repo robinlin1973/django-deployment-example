@@ -25,8 +25,11 @@ SECRET_KEY = '5^ek%iglspcp)4&dw$a7&l$q*a20$f*&!s$m9b!3_6z+w7f%r)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'abinla.pythonanywhere.com',
+    '.pythonanywhere.com',
+    '.googleapis.com',
+]
 
 # Application definition
 
